@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import { setContext } from "@apollo/client/link/context";
 import { BrowserRouter } from "react-router-dom";
+import { AUTH_TOKEN } from "./components/constants";
+
 import "./styles/index.css";
 
 // 1
